@@ -25,6 +25,9 @@ p.forEach(ps => {
     console.log(ps.innerText);
     console.log(pt);
     ps.style.color = random_bg_color();
+    if(!pt == ""){
+        ps.style.color = "black";
+    }
 });
 
 function random_bg_color() {
